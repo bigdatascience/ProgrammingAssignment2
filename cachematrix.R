@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## This function creates a Cached Matrix. 
+## It is a first class function that returns a list set, get, setmatrix and getmatrix
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -19,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## The cacheSolve function solves and returns the inverse of a matrix.
 
 cacheSolve <- function(x, ...) {
         m <- x$getmatrix()
